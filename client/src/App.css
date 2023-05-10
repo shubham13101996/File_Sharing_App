@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   display: flex;
   flex-direction: column;
@@ -5,11 +10,6 @@
   align-items: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-body {
-  margin: 0;
-  padding: 0;
 }
 
 .auth {
@@ -52,4 +52,63 @@ input {
 
 h2 {
   margin-top: 0;
+}
+
+.container {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStmOXh3vTG2g0UEkkJjLT2ot93doFJGK87Iu3ToDROircKnBVXCi-VAEnMfK1zNIsShbo&usqp=CAU);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+
+.img {
+  width: 40%;
+}
+
+.wrapper {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50%;
+  border: 5px dashed darkgoldenrod;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #445a6f;
+  margin: 40px 0;
+}
+p {
+  font-weight: 600;
+}
+input {
+  margin: 20px 0;
+  width: 300px;
+  padding: 8px;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #445a6f;
+  border: 1px solid #445a6f;
+  color: #fff;
+  font-size: 20px;
+  margin: 30px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #152636;
 }
