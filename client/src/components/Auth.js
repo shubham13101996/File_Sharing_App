@@ -90,6 +90,7 @@ const Form = ({
 }) => {
   return (
     <div className="auth-container">
+      <h1>AUTHENTICATION FORM</h1>
       <form onSubmit={onSubmit}>
         <h2>{label} </h2>
         <div className="form-group">

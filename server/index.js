@@ -3,6 +3,7 @@ import cors from "cors";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import { userRouter } from "./routes/users.js";
+import { fileRouter } from "./routes/Files.js";
 const app = express();
 dotenv.config();
 app.use(express.json());
@@ -10,7 +11,7 @@ app.use(express.urlencoded());
 app.use(cors());
 
 app.use("/auth", userRouter);
-
+app.use("/", fileRouter);
 // <====================  Connecting Database  ======================>
 
 mongoose
