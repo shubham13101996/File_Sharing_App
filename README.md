@@ -15,3 +15,7 @@ Step 2 : Then, Fill the Login Form with same username and password.It will redir
 Step 3 : Click on the "Upload" button.<br/>
 Step 4 : Choose the file or image u want to share and click on "Open" button, then Wa link will display on the screen.<br/>
 Step 5 : Copy the display link and paste it in the url and press "Enter", File will download on your system.<br/>
+
+![chrome_screenshot_localhost (6)](https://github.com/shubham13101996/File_Sharing_App/assets/121822895/b8c01931-67f1-4d7b-9833-72fc9aa62508)
+
+![chrome_screenshot_localhost (5)](https://github.com/shubham13101996/File_Sharing_App/assets/121822895/7172d7a2-675b-4bd2-a17b-da14d0459ba4)
